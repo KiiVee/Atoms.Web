@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baguio College of Technology</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Fix the image to display fully without cropping */
+    .photo-container {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .photo-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Additional styling to separate sections better */
+    .section-gap {
+      margin-top: 40px; /* Adds space between the photo and the other sections */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black py-3">
+  <div class="container-fluid">
+    <a class="navbar-brand text-warning" href="#">Baguio College of Technology</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link text-warning" href="contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link text-warning" href="facts.html">Facts</a></li>
+        <li class="nav-item"><a class="nav-link text-warning" href="application.html">Application</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Image Container -->
+<!-- Image Container with Yellow Border -->
+<div class="d-flex justify-content-center my-5">
+  <div style="border: 5px solid #ffc107; padding: 10px; border-radius: 10px;">
+    <img src="images/atom2" alt="Photo" class="img-fluid" style="max-width: 1000px; width: 100%; height: auto;">
+  </div>
+</div>
+
+
+
+<!-- Mission and Vision Boxes (Now positioned below the image) -->
+<div class="container section-gap">
+  <div class="box">
+    <h2>MISSION</h2>
+    <p>To provide quality education by equipping students with necessary knowledge and skills, desirable work attitudes, and values vital to leaders for industrial development.</p>
+  </div>
+  <div class="box">
+    <h2>VISION</h2>
+    <p>To produce competent workers, teachers, entrepreneurs, and leaders in the field of electronics, electricity, computers, and communication, who shall have confidence to effect improvement of life in their respective communities.</p>
+  </div>
+</div>
+
+<!-- Hero Banner -->
+<div class="hero text-white text-center d-flex align-items-center justify-content-center" 
+     style="height: 70vh; background: url('hero-image.jpg') center/cover no-repeat;">
+  <div class="overlay p-5" style="border: 4px solid #ffc107; border-radius: 15px;">
+    <h1 class="display-4 fw-bold text-warning">Top Programs at BCT</h1>
+    <hr class="mx-auto my-3" style="width: 80%; border: 2px solid #ffc107;">
+    <p class="lead">Our IT students develop real-world solutions and shine in innovation expos nationwide.</p>
+    <a href="top.html" class="btn btn-outline-warning mt-3">More Info</a>
+  </div>
+</div>
+
+
+<!-- Grid Info Section -->
+<div class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="info-tile p-4 bg-dark text-warning h-100">
+        <h5>Latest News</h5>
+        <p>Explore the most recent achievements and events of our students and faculty.</p>
+        <a href="#" class="text-warning">More info &rarr;</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-tile p-4 bg-dark text-warning h-100">
+        <h5>Networking Events</h5>
+        <p>Join forums and student meetups designed to boost your academic journey.</p>
+        <a href="#" class="text-warning">More info &rarr;</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-tile p-4 bg-dark text-warning h-100">
+        <h5>Upcoming Semester</h5>
+        <p>Enrollment opens soon for all incoming students. Be prepared to level up!</p>
+        <a href="#" class="text-warning">More info &rarr;</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-tile p-4 bg-dark text-warning h-100">
+        <h5>Our Faculty</h5>
+        <p>Meet the brilliant educators behind our successful programs.</p>
+        <a href="#" class="text-warning">More info &rarr;</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-tile p-4 bg-dark text-warning h-100">
+        <h5>Student Stories</h5>
+        <p>Hear firsthand from our achievers and how BCT shaped their path.</p>
+        <a href="#" class="text-warning">More info &rarr;</a>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="info-tile p-4 bg-warning text-dark h-100">
+        <h5>Our Courses</h5>
+        <p>Browse our curriculum, schedules, and offerings across all departments.</p>
+        <a href="#" class="text-dark fw-bold">More info &rarr;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fast Facts Section -->
+<section class="bg-black text-warning py-5">
+  <div class="container text-center">
+    <h3 class="mb-4">Fast facts about BCT</h3>
+    <div class="row">
+      <div class="col-md-3">
+        <h2>5,500+</h2>
+        <p>Total Enrollment</p>
+      </div>
+      <div class="col-md-3">
+        <h2>85%</h2>
+        <p>Program Success Rate</p>
+      </div>
+      <div class="col-md-3">
+        <h2>6:1</h2>
+        <p>Student-Faculty Ratio</p>
+      </div>
+      <div class="col-md-3">
+        <h2>4</h2>
+        <p>Specialized Departments</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-warning text-center py-3">
+  &copy; 2025 Baguio College of Technology | Inspired by Essex Summer School design
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
